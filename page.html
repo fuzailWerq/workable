@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/5fc55d414a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav>
+      <div class="navbar">
+        <div class="logonav">
+          <img
+            src="/assets/workable-01.webp"
+            alt=""
+            width="150px"
+            height="50px"
+            class="logo"
+          />
+        </div>
+        <ul>
+          <a href="#"><li>Candidate Sourcing</li></a>
+          <a href="#"><li>Applicant Tracking</li></a>
+          <a href="#"><li>Mobile Recruting app</li></a>
+          <a href="#"><li class="lastChild">Try It for free</li></a>
+        </ul>
+      </div>
+    </nav>
+
+    <!--section text-->
+    <section class="textsection">
+      <p class="text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et architecto
+        dolorum, aut modi sequi mollitia dolor cum eum nostrum accusantium
+        fugit, ea aliquid quia ipsam quidem consequuntur numquam voluptate quas?
+      </p>
+    </section>
+
+    <!--main box-->
+    <section class="imgbody">
+      <div class="left">
+        <img src="./assets/man.jpg" alt="" width="50px" height="50px" />
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et
+          architecto dolorum, aut modi sequi mollitia dolor cum eum nostrum
+          accusantium fugit, ea aliquid quia ipsam quidem consequuntur numquam
+          voluptate quas?
+        </p>
+        <p>Lorem ipsum dolor</p>
+        <div style="margin-top: 10px">
+          <p>Lorem ipsum</p>
+          <p>Lorem</p>
+        </div>
+      </div>
+
+      <form id="myform" onsubmit="validation(event)">
+        <div class="formContainer">
+          <input
+            type="name"
+            placeholder="first name"
+            class="inp"
+            name="fname"
+            id="fname"
+          />
+          <input
+            type="name"
+            placeholder="last name"
+            class="inp"
+            name="lname"
+            id="lname"
+          />
+          <input
+            type="email"
+            placeholder="email"
+            class="inp"
+            name="email"
+            id="email"
+          />
+          <input
+            type="password"
+            placeholder="password"
+            class="inp"
+            name="password"
+            id="password"
+          />
+        </div>
+
+        <div class="checkbox">
+          <input type="checkbox" />
+          <p style="display: flex; padding: 10px 0px; font-size: 12px">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
+            impedit optio voluptatibus cumque in modi beatae mollitia doloribus
+          </p>
+        </div>
+
+        <button class="signup">SignUP</button>
+        <p id="success">Thanks for submitting</p>
+        <div class="policy">
+          <p style="padding: 20px 0px">our <a href="#">privacy policy</a></p>
+        </div>
+        <div style="display: flex; align-items: center">
+          <hr style="width: 170px; height: 0px" />
+          <p style="padding: 0px 30px">our sign up with</p>
+          <hr style="width: 170px; height: 0px" />
+        </div>
+        <div>
+          <button class="btn btn1">
+            <i class="fa-brands fa-linkedin" style="float: left"> </i>
+            LINKDEN
+          </button>
+
+          <button class="btn btn2">
+            <i class="fa-brands fa-google" style="float: left"></i>GOOGLE
+          </button>
+        </div>
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
